@@ -12,11 +12,11 @@
 
 5. When working with already abstrcated graph structures, factorization enables isolating the locus of attention to a minimial set of nodes of manageable complexity as well as composing multiple symbols into new ones of exponentially increasing complexity (eg, joining two subgraphs into one graph). The imprecision/infidelity of individual constituients also factored which limits how useful compositions of increasing scale are but error factorization property can also be useful for peeling off uncertainty or for joining constituients in a way such that their individual imprecisions marginalize each other out.
 
-3. Tokens are subsymbolic. Even though they are much sharper expressions of patterns than pixels or touch sensor observations, tokens are usually not identicle to symbolic identities themselves! Symbolic reasoning is still at a higher plane of abstraction than the token completion process.
+6. Tokens are subsymbolic. Even though they are much sharper expressions of patterns than pixels or touch sensor observations, tokens are usually not identicle to symbolic identities themselves! Symbolic reasoning is still at a higher plane of abstraction than the token completion process.
 
-4. LLMs don't "think" symbolically; they predict tokens based on patterns, not over persistent object-level state. The symbolic graph is formed by the pattern of attention and interaction across embeddings — not stored in a single token or layer. But this graph is weakly defined and exists in a noisy space with competing mechanisms operating in the same activation space. LLMs appear to have strong short-term memory via attention, but fail to maintain consistent symbolic state. 
+7. LLMs don't "think" symbolically; they predict tokens based on patterns, not over persistent object-level state. The symbolic graph is formed by the pattern of attention and interaction across embeddings — not stored in a single token or layer. But this graph is weakly defined and exists in a noisy space with competing mechanisms operating in the same activation space. LLMs appear to have strong short-term memory via attention, but fail to maintain consistent symbolic state. 
 
-5. ENgineers currently compensate for the imperfect ability of LLMs to think symbolically with external mechasnisms that require the LLM to pass a threshold of 
+8. ENgineers currently compensate for the imperfect ability of LLMs to think symbolically with external mechasnisms that require the LLM to pass a threshold of 
 
 ## Initial Experiments on symbolic reasoning
 
