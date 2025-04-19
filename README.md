@@ -4,28 +4,13 @@
 
 1. Compositional symbolic abstraction and generalization--including the symbol of the self--is the principle objective of AGI
 
-2. The system dynamics and problem objectives are usually defined at differennt layers of abstraction. Abstrcations defined under a given context reduce the complexity required to 
+2. System dynamics and problem objectives are usually defined at differennt layers of abstraction. Abstrcations defined under a given context provide a low dimensional representation of system dynamics and the more faithful an abstraction is to the underlying latent structure it represents, the more stable it remains through Bayesian update (ie, the generalizble context increases).
 
+3. Equivalently for model-based agents (not necesarily model-based RL), abstractions provide a low dimensional handle their world model which allows directly exploring and manipulating the latent structure of its cognition, and again, the closer these abstractions aligns with its underlying dynamics, the better they generalize. World models used to be constructed directly in symbolic form allow perfect representation fidelity and reduce abstractions to symbolic identities. However subsymbolic methods like embedding representations minimizes the exponential complexity of increasing symbolic dimensionality and are more grounded in the underlying latent structure of the universe anyways.
 
- The closer a representation aligns with the underlying latent structure of a system, the more useful it is for understanding and predicting interactions with it. 
+4. Compositional symbolic abstraction iteratively decomposes the fronteir of a bulk representation into discrete symbolic constituients, ie, subgraphs factored from the bulk. (Pairwise embeddings like token embeddings are implicit representations of individual nodes in their metric space but internal embeddings are subject to other competing objectives which decreases the utiltiy of this interpretation.
 
-This allows the directly manipulate information at the high
-
-
-2. Compositional symbolic abstraction iteratively decomposes the fronteir of a bulk representation into discrete symbolic constituients, ie, subgraphs factored from the bulk (Pairwise embeddings like token embeddings are implicit representations of individual nodes in their metric space but internal embeddings are subject to other competing objectives). 
-
-  Even when working with already abstrcated graph structures, factorization enables isolating the locus of attention to a minimial set of nodes of manageable complexity as well as composing multiple symbols into new ones of exponentially increasing complexity (eg, joining two subgraphs into one graph).
-
-
-
- in potentially new ways that remain 
-
-to produce 
-
-
- and remain stable through bayesian update
-2. Symbolic thoughts should be factorizable into composable interchangable constituients
-3. The more precisely a model approaches Generalizable representations requires stable repesentations of a system
+5. When working with already abstrcated graph structures, factorization enables isolating the locus of attention to a minimial set of nodes of manageable complexity as well as composing multiple symbols into new ones of exponentially increasing complexity (eg, joining two subgraphs into one graph). The imprecision/infidelity of individual constituients also factored which limits how useful compositions of increasing scale are but error factorization property can also be useful for peeling off uncertainty or for joining constituients in a way such that their individual imprecisions marginalize each other out.
 
 3. Tokens are subsymbolic. Even though they are much sharper expressions of patterns than pixels or touch sensor observations, tokens are usually not identicle to symbolic identities themselves! Symbolic reasoning is still at a higher plane of abstraction than the token completion process.
 
