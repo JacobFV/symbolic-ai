@@ -4,7 +4,7 @@
 
 1. Compositional symbolic abstraction and generalization--including the symbol of the self--is the principle objective of AGI
 
-2. System dynamics and problem objectives are usually defined at differennt layers of abstraction. Abstrcations defined under a given context provide a low dimensional representation of system dynamics and the more faithful an abstraction is to the underlying latent structure it represents, the more stable it remains through Bayesian update (ie, the generalizble context increases).
+2. System dynamics and problem objectives are usually defined at differennt layers of abstraction. Abstrcations defined under a given context provide a low dimensional representation of system dynamics and the more faithful an abstraction is to the underlying latent structure it represents, the more stable it remains through Bayesian update (ie, its generalizble context expands).
 
 3. Equivalently for model-based agents (not necesarily model-based RL), abstractions provide a low dimensional handle their world model which allows directly exploring and manipulating the latent structure of its cognition, and again, the closer these abstractions aligns with its underlying dynamics, the better they generalize. World models used to be constructed directly in symbolic form allow perfect representation fidelity and reduce abstractions to symbolic identities. However subsymbolic methods like embedding representations minimizes the exponential complexity of increasing symbolic dimensionality and are more grounded in the underlying latent structure of the universe anyways.
 
